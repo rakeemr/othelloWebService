@@ -1,0 +1,12 @@
+      invoke  active_record
+      create    db/migrate/20180408014951_create_books.rb
+      create    app/models/book.rb
+      invoke    test_unit
+      create      test/models/book_test.rb
+      create      test/fixtures/books.yml
+      invoke  resource_route
+       route    resources :books
+      invoke  scaffold_controller
+      create    app/controllers/books_controller.rb
+      invoke    test_unit
+      create      test/controllers/books_controller_test.rb
